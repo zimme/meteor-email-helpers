@@ -10,6 +10,7 @@ Package.onUse(function(api) {
 
   api.use([
     'accounts-base',
+    'check',
     'coffeescript'
   ]);
 
@@ -18,6 +19,8 @@ Package.onUse(function(api) {
 
 Package.onTest(function(api) {
   api.use([
+    'accounts-base',
+    'check',
     'coffeescript',
     'tinytest'
   ]);
